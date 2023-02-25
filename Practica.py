@@ -23,7 +23,7 @@ def mostrar_peliculas(peliculas):
     else:
         for pelicula in peliculas:
             print(f"Nombre: {pelicula['nombre']}")
-            print(f"Actores: {', '.join(pelicula['actores'])}")
+            print(f"Actores: {','.join(pelicula['actores'])}")
             print(f"Año de estreno: {pelicula['año']}")
             print(f"Género: {pelicula['género']}")
             print("\n")
@@ -145,6 +145,7 @@ print("Lenguajes Formales y de Programación")
 print("Sección A-")
 print("Carné 201901815")
 print("Ivan de Jesús Pisquiy Escobar")
+
 # Función principal del programa
 def main():
     opcion = presentar_menu()
